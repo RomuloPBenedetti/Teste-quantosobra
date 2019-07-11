@@ -5,6 +5,16 @@ import sys
 
 
 def reorder(start, end, cars_numb):
+    """
+    Reordena a lista da partida da corrida via pop inserts a partir da esquerda tendo a
+    lista de chegada como sequência esperada, contabilizando o deslocamento de índices
+    para descobrir o número mínimo de ultrapassagens.
+
+    :param start: lista a ser ordenada.
+    :param end: lista na ordem esperada.
+    :param cars_numb: número de carros
+    :return: Número mínimo de ultrapassagens.
+    """
     overtaking_count = 0
 
     for a in range(cars_numb):

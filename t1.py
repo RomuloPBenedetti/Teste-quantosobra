@@ -1,5 +1,5 @@
 
-def quantosobra (start, end):
+def quantosobra(start, end):
     for numb in range(start, end):
         message = ""
         is_quantosobra = False
