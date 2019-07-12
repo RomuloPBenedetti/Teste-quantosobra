@@ -50,13 +50,13 @@ def gen_parser():
 def execute():
 
     if len(args.partida) != args.num_de_carros:
-        parser.error("Ops! algum carro está faltando ou sobrando na partida!.")
+        parser.error("Ops! Algum carro está faltando ou sobrando na partida!.")
 
     if len(args.chegada) != args.num_de_carros:
-        parser.error("Ops! algum carro está faltando ou sobrando na chegada!.")
+        parser.error("Ops! Algum carro está faltando ou sobrando na chegada!.")
 
     if set(args.partida) != set(args.chegada):
-        parser.error("Ops! algum carro trocou de número!.")
+        parser.error("Ops! Algum carro trocou de número!.")
 
     if args.num_de_carros == 0:
         print("0 ultrapassagens")
