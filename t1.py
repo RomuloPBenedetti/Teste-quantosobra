@@ -4,11 +4,11 @@ def quantosobra(start, end):
         message = ""
         is_quantosobra = False
 
-        if numb % 5 == 0:
-            message = "Quanto"
+        if numb % 3 == 0:
+            message += "Quanto"
             is_quantosobra = True
 
-        if numb % 3 == 0:
+        if numb % 5 == 0:
             message += "Sobra"
             is_quantosobra = True
 
