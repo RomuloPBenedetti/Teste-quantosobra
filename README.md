@@ -1,5 +1,7 @@
 # Teste  -  QuantoSobra
 
+As tarefas foram realizadas tendo Python 3.5.5 como environment.
+
 ### TAREFA 1
 
     $python t1.py
@@ -16,7 +18,7 @@ A tarefa 2 está resolvida [nesta página](t2.md).
 
 O help pode ser acessado com o parâmetro `[-h, --help|`, segue exemplo de uso:
  
-    $python t4.py -n 4 -p 1 2 3 4 -c 3 4 2 1
+    $python t3.py -n 4 -p 1 2 3 4 -c 3 4 2 1
 
 ---
 
